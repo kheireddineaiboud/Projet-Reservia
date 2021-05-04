@@ -593,7 +593,8 @@ footer {
         margin-left: 20px;
     }
     .filtres button {
-        margin-right: 0;
+        border: 2px solid rgb(194, 193, 193);
+        margin-right: 5px;
         margin-bottom: 10px;
     }
     .filtres h3 {
@@ -612,12 +613,16 @@ footer {
     }
     small {
         font-size: 17px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
     .hotbr {
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
+    }
+    .entete {
+        margin-left: 20px;
+        margin-bottom: 20px;
     }
     .hbr-pp {
         display: flex;
@@ -626,8 +631,14 @@ footer {
         width: 100%;
     }
     .htl-pp {
-        width: 90%;
+        display: flex;
+        width: 100%;
         margin: 0;
+    }
+    .populaire {
+        margin-left: 15px;
+        margin-top: 10px;
+        padding: 0;
     }
     .divwright {
         font-size: 15px;
@@ -649,7 +660,7 @@ footer {
     }
     .htl-mrs {
         background-color: white;
-        margin: 0;
+        margin-right: 15px;
     }
     .heb-mars {
         margin-left: 10px;
@@ -659,7 +670,7 @@ footer {
         box-shadow: 2px 2px 2px 2px #f2f2f2;
         width: 100%;
         margin: 0;
-        margin-top: 5px;
+        margin-top: 15px;
     }
     .marcus {
         width: 100%;
@@ -670,7 +681,6 @@ footer {
     .activites {
         display: flex;
         align-items: center;
-        margin: 0;
         margin-bottom: 200px;
         width: 100%;
     }
@@ -680,16 +690,17 @@ footer {
         width: 100%;
     }
     .vp {
-        width: 100%;
+        width: 355px;
         height: 200px;
         margin-bottom: 20px;
+        margin-left: -10px;
     }
     .vieuxport {
         width: 100%;
         height: 150px;
     }
     .port {
-        width: 100%;
+        width: 355px;
         height: 150px;
     }
     .for-il {
@@ -697,17 +708,19 @@ footer {
         margin: 0;
     }
     .fort {
-        width: 100%;
+        width: 355px;
         height: 200px;
+        margin-left: -10px;
     }
     .pom {
         width: 100%;
         height: 150px;
     }
     .ile {
-        width: 100%;
+        width: 355px;
         height: 200px;
         margin-top: 20px;
+        margin-left: -10px;
     }
     .frioul {
         width: 100%;
@@ -719,8 +732,9 @@ footer {
         margin-top: -50px;
     }
     .parc {
-        width: 100%;
+        width: 355px;
         height: 200px;
+        margin-left: -20px;
     }
     .calq {
         width: 100%;
@@ -732,17 +746,19 @@ footer {
         margin-top: 20px;
     }
     .notr {
-        width: 100%;
+        width: 355px;
         height: 200px;
+        margin-left: -20px;
     }
     .dame {
         width: 100%;
         height: 150px;
     }
     .long {
-        width: 100%;
+        width: 355px;
         height: 200px;
         margin-top: 20px;
+        margin-left: -20px;
     }
     .champ {
         width: 100%;
