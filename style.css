@@ -545,9 +545,9 @@ footer {
     }
     .liste:hover {
         border-top: none;
+        color: #0065FC;
     }
     .nav-bar li:hover {
-        color: #0065FC;
         border-bottom: 3px solid #0400fc;
         border-top: none;
     }
