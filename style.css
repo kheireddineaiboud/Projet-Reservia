@@ -1,0 +1,760 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+/*header*/
+
+body {
+    font-family: raleway;
+    margin: 0px;
+    height: auto;
+}
+
+#main {
+    width: 1480px;
+    margin: auto;
+}
+
+.image {
+    margin-top: 20px;
+    width: 120px;
+    height: 50px;
+    margin-left: 20px;
+    float: left;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-bar ul {
+    margin-right: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.nav-bar li {
+    list-style-type: none;
+}
+
+ul .sinscrire {
+    margin-top: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0065FC;
+}
+
+.liste {
+    display: block;
+    text-align: center;
+    padding-top: 25px;
+    color: black;
+    width: 120px;
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.liste:hover {
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+}
+
+h1,
+.lieu {
+    margin-left: 20px;
+    flex-basis: 100%;
+}
+
+
+/*bar de recherche*/
+
+.bar-rech {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.fas1 {
+    padding: 10px;
+    border: 1px transparent black;
+    border-radius: 20% 0% 0% 20%;
+    background-color: #f2f2f2;
+}
+
+.colonne {
+    padding: 16px 0px 16px 5px;
+    font-weight: bold;
+    border: 1px transparent;
+    height: 25px;
+}
+
+.btn {
+    border-radius: 0% 15% 15% 0%;
+    border: 1px transparent;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    color: white;
+    background-color: #0065FC;
+}
+
+.btn:hover {
+    color: black;
+    background-color: #DEEBFF;
+}
+
+.loop {
+    background-color: #0065FC;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    left: -10px;
+    display: none;
+}
+
+
+/*les filtres*/
+
+.filtres {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.filtres h3 {
+    margin-left: 20px;
+    margin-right: 32px;
+}
+
+.filtres button {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid #f2f2f2;
+    border-radius: 50px;
+    background: none;
+    padding: 0 20px 0 0;
+    margin-right: 25px;
+    outline: none;
+    cursor: pointer;
+}
+
+.filtres .icon {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin-left: -2px;
+    margin-right: 16px;
+    align-items: center;
+    justify-content: center;
+    background-color: #deebff;
+    border-radius: 50px;
+    color: #0065FC;
+}
+
+.filtres button :first-child:hover {
+    color: black;
+    background-color: white;
+}
+
+.filtres button:hover {
+    background-color: #0065FC;
+    color: white;
+    border-color: #0065FC;
+}
+
+small {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.ic {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f2f2f2;
+    border-radius: 50% 50%;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    margin-right: 5px;
+    margin-top: -5px;
+}
+
+
+/*hebergement a marseille et les plus populaires*/
+
+.hotbr {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.hbr-mrs {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    margin: 20px;
+    margin-right: 60px;
+    padding-top: 20px;
+    background-color: #f2f2f2;
+    width: 60%;
+    height: auto;
+}
+
+.heb-mars {
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-block-end: 0px;
+}
+
+.htl-mrs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
+
+.marcus {
+    height: 125px;
+    width: 250px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+.hotel {
+    margin: 10px;
+    padding: 5px;
+    height: 200px;
+    text-decoration: none;
+    text-align: justify;
+    color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.divleft {
+    margin-left: 10px;
+}
+
+.hotel h3 {
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+.hotel p {
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+.fas {
+    font-size: 13px;
+    color: #0065FC;
+}
+
+.gris {
+    color: #f2f2f2;
+}
+
+.afficher {
+    margin-left: 45px;
+}
+
+.hbr-pp {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    margin: 20px;
+    background-color: #f2f2f2;
+    width: 30%;
+}
+
+.htl-pp {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.populaire {
+    display: flex;
+    text-decoration: none;
+    margin: 20px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 90%;
+    height: auto;
+}
+
+.entete {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.graph {
+    color: black;
+    margin-right: 50px;
+    font-size: 25px;
+}
+
+.soleil {
+    width: 130px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.divwright {
+    font-size: 20px;
+    margin-left: 15px;
+    color: black;
+}
+
+.section2 {
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+.somme {
+    margin-block-start: 5px;
+    margin-block-end: 30px;
+}
+
+
+/*les activites a marseille*/
+
+.activites {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.touriste {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px;
+}
+
+.act-mar {
+    margin-left: 20px;
+}
+
+.vp {
+    display: flex;
+    box-shadow: 3px 3px #f2f2f2;
+    border-radius: 20px;
+    height: 500px;
+    width: 320px;
+}
+
+.vieuxport {
+    text-decoration: none;
+}
+
+.port {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+}
+
+.act-title {
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+}
+
+.for-il {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    height: 500px;
+}
+
+.fort {
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 3px 3px #f2f2f2;
+    width: 320px;
+    height: 270px;
+    text-decoration: none;
+}
+
+.pom {
+    border-radius: 20px 20px 0px 0px;
+    width: 320px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.ile {
+    margin-top: 50px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 3px 3px #f2f2f2;
+    width: 320px;
+    height: 180px;
+    text-decoration: none;
+}
+
+.frioul {
+    border-radius: 20px 20px 0px 0px;
+    width: 320px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.pc {
+    display: flex;
+    box-shadow: 3px 3px #f2f2f2;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 3%;
+}
+
+.parc {
+    text-decoration: none;
+}
+
+.calq {
+    border-radius: 20px 20px 0px 0px;
+    width: 320px;
+    height: 440px;
+    object-fit: cover;
+}
+
+.notr-parc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+.notr {
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 3px 3px #f2f2f2;
+    width: 320px;
+    height: 180px;
+    text-decoration: none;
+}
+
+.dame {
+    border-radius: 20px 20px 0px 0px;
+    width: 320px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.long {
+    margin-top: 50px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 3px 3px #f2f2f2;
+    width: 320px;
+    height: 270px;
+    text-decoration: none;
+}
+
+.champ {
+    border-radius: 20px 20px 0px 0px;
+    width: 320px;
+    height: 210px;
+    object-fit: cover;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+}
+
+
+/*footer*/
+
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    width: 100%;
+    margin-top: 60px;
+}
+
+
+/*responsive*/
+
+@media (max-width:1480px) {
+    #main {
+        width: auto;
+        margin: auto;
+    }
+}
+
+@media(max-width:700px) {
+    body {
+        width: 100%;
+        height: auto;
+    }
+    header {
+        margin: 0;
+        width: auto;
+    }
+    .image {
+        position: absolute;
+        width: auto;
+    }
+    .sinscrire {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        font-size: 18px;
+    }
+    .nav-bar {
+        width: 100%;
+    }
+    .nav-bar ul {
+        margin-right: 0;
+        width: 100%;
+        padding-inline-start: 0;
+    }
+    .nav-bar li {
+        width: 100%;
+        margin-top: 40px;
+        padding-bottom: 20px;
+        border-bottom: 3px solid rgb(245, 243, 243);
+        border-top: none;
+    }
+    .liste {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+    .liste:hover {
+        border-top: none;
+    }
+    .nav-bar li:hover {
+        color: #0065FC;
+        border-bottom: 3px solid #0400fc;
+        border-top: none;
+    }
+    h1 {
+        border-top: 20px;
+        font-size: 25px;
+    }
+    .lieu {
+        font-size: 18px;
+    }
+    .bar-rech {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .fas1 {
+        width: 20px;
+        padding-left: 15px;
+        font-size: 20px;
+        color: black;
+    }
+    .loop {
+        display: block;
+    }
+    .colonne {
+        width: 250px;
+        padding: 16px 0px 16px 20px;
+        font-size: 20px;
+        border: 2px black;
+        height: 50px;
+    }
+    .loop i {
+        font-size: 20px;
+        color: white;
+        display: inline-block;
+    }
+    .btn {
+        display: none;
+    }
+    .filtres {
+        margin-left: 20px;
+    }
+    .filtres button {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .filtres h3 {
+        flex-basis: 100%;
+    }
+    .ic {
+        display: flex;
+        height: 25px;
+        width: 25px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        border-radius: 50% 50%;
+        background-color: white;
+        color: #0065FC;
+    }
+    small {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    .hotbr {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .hbr-pp {
+        display: flex;
+        border-radius: 0px;
+        margin: 0;
+        width: 100%;
+    }
+    .htl-pp {
+        width: 90%;
+        margin: 0;
+    }
+    .divwright {
+        font-size: 15px;
+    }
+    .lpp {
+        margin-left: -20px;
+        font-size: 20px;
+        margin: 0;
+    }
+    .graph {
+        font-size: 20px;
+    }
+    .hbr-mrs {
+        display: flex;
+        background-color: white;
+        border-radius: 0px;
+        width: 100%;
+        margin: 0;
+    }
+    .htl-mrs {
+        background-color: white;
+        margin: 0;
+    }
+    .heb-mars {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .hotel {
+        box-shadow: 2px 2px 2px 2px #f2f2f2;
+        width: 100%;
+        margin: 0;
+        margin-top: 5px;
+    }
+    .marcus {
+        width: 100%;
+    }
+    .afficher {
+        margin-left: 20px;
+    }
+    .activites {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 200px;
+        width: 100%;
+    }
+    .touriste {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .vp {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .vieuxport {
+        width: 100%;
+        height: 150px;
+    }
+    .port {
+        width: 100%;
+        height: 150px;
+    }
+    .for-il {
+        width: 100%;
+        margin: 0;
+    }
+    .fort {
+        width: 100%;
+        height: 200px;
+    }
+    .pom {
+        width: 100%;
+        height: 150px;
+    }
+    .ile {
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .frioul {
+        width: 100%;
+        height: 150px;
+    }
+    .pc {
+        width: 100%;
+        height: 200px;
+        margin-top: -50px;
+    }
+    .parc {
+        width: 100%;
+        height: 200px;
+    }
+    .calq {
+        width: 100%;
+        height: 150px;
+    }
+    .notr-parc {
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .notr {
+        width: 100%;
+        height: 200px;
+    }
+    .dame {
+        width: 100%;
+        height: 150px;
+    }
+    .long {
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .champ {
+        width: 100%;
+        height: 150px;
+    }
+    .foot {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .propos,
+    .nos,
+    .assistance {
+        margin-left: 30px;
+    }
+}
