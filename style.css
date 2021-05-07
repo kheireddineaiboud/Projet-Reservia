@@ -425,6 +425,7 @@ small {
     display: flex;
     box-shadow: 3px 3px #f2f2f2;
     height: 500px;
+    width: 320px;
     border-radius: 20px;
     margin-left: 3%;
 }
@@ -684,7 +685,7 @@ footer {
     .activites {
         display: flex;
         align-items: center;
-        margin-bottom: 200px;
+        margin-bottom: 250px;
         width: 100%;
     }
     .touriste {
@@ -693,17 +694,16 @@ footer {
         width: 100%;
     }
     .vp {
-        width: 355px;
+        width: 100%;
         height: 200px;
         margin-bottom: 20px;
-        margin-left: -10px;
     }
     .vieuxport {
         width: 100%;
         height: 150px;
     }
     .port {
-        width: 355px;
+        width: 100%;
         height: 150px;
     }
     .for-il {
@@ -711,19 +711,17 @@ footer {
         margin: 0;
     }
     .fort {
-        width: 355px;
+        width: 100%;
         height: 200px;
-        margin-left: -10px;
     }
     .pom {
         width: 100%;
         height: 150px;
     }
     .ile {
-        width: 355px;
+        width: 100%;
         height: 200px;
         margin-top: 20px;
-        margin-left: -10px;
     }
     .frioul {
         width: 100%;
@@ -735,9 +733,8 @@ footer {
         margin-top: -50px;
     }
     .parc {
-        width: 355px;
         height: 200px;
-        margin-left: -20px;
+        margin-left: -10px;
     }
     .calq {
         width: 100%;
@@ -747,21 +744,20 @@ footer {
         width: 100%;
         height: 200px;
         margin-top: 20px;
+        margin-left: 0px;
     }
     .notr {
-        width: 355px;
+        width: 100%;
         height: 200px;
-        margin-left: -20px;
     }
     .dame {
         width: 100%;
         height: 150px;
     }
     .long {
-        width: 355px;
-        height: 200px;
+        width: 100%;
         margin-top: 20px;
-        margin-left: -20px;
+        margin-left: 0px;
     }
     .champ {
         width: 100%;
