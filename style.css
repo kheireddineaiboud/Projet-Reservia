@@ -28,7 +28,7 @@ body {
 
 .nav-bar ul {
     margin-right: 50px;
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
@@ -58,6 +58,8 @@ ul .sinscrire {
 
 .liste:hover {
     color: #0065FC;
+    margin-top: -20px;
+    padding-top: 40px;
     border-top: 3px solid #0065FC;
 }
 
@@ -90,7 +92,7 @@ h1,
 }
 
 .btn {
-    border-radius: 0% 15% 15% 0%;
+    border-radius: 0 15px 15px 0;
     border: 1px transparent;
     height: 40px;
     width: 100px;
@@ -290,6 +292,7 @@ small {
     display: flex;
     text-decoration: none;
     margin: 20px;
+    margin-left: 13px;
     padding: 5px;
     border: 2px solid white;
     border-radius: 20px;
